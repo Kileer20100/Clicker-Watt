@@ -1,0 +1,80 @@
+body {
+    background-color: #aa1b1be1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.Cent {
+    border: 2px solid #333333;
+    width: 400px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Grup {
+    text-align: center;
+}
+
+.h1_Name {
+    letter-spacing: 3px;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.Image img {
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.claim {
+    font-size: 25px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    background-color: #1baa33e1;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TocenWhatt {
+    font-size: 25px;
+    width: 150px;
+    height: 90px;
+    color: white;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Menu */
+.Menu{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.im-home{
+    margin: 10px;
+}
+
+.im-check-exercise{
+    margin: 10px;
+}
+
+.im-friends-add{
+    margin: 10px;
+}
+/* Menu */
