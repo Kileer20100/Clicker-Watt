@@ -1,0 +1,59 @@
+.Grup {
+    text-align: center;
+    flex: 1; /* Это позволит блоку Grup занимать оставшееся пространство */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1_Name {
+    letter-spacing: 7px;
+    font-size: 100px;
+    margin: 20px;
+    color: white;
+}
+
+body {
+    background-color: #aa1b1be1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+
+.Cent {
+    border: 2px solid #333333;
+    width: 720px;
+    height: 1280px;
+    display: flex;
+    flex-direction: column; /* Добавляем для вертикального выравнивания */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url('/image/fon/fon-blakc.png');
+    background-size: cover; /* Картинка будет покрывать весь экран */
+    background-repeat: no-repeat; /* Картинка не будет повторяться */
+    background-position: center; /* Картинка будет центрирована */
+}
+
+
+/* Menu */
+.Menu {
+    margin-top: auto; /* Позволяет меню переместиться вниз */
+    width: 720px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3131;
+    border-radius: 10px;
+}
+
+.im-home, .im-check-exercise, .im-friends-add, .im-Bost-token {
+    margin: 50px;
+}
