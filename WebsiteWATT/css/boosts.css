@@ -1,0 +1,17 @@
+.Choosing-place{
+    width: 650px;
+    height: 950px;
+    background-color: #d2e2e4;
+    border-radius: 25px;
+
+}
+
+.department-1,.department-2,.department-3,.department-4{
+
+    width: 630px;
+    height: 225px;
+    background-color: #00000081;
+    border-radius: 25px;
+    margin: 10px;
+
+}
