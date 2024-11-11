@@ -1,0 +1,56 @@
+
+.Image img {
+    border-radius: 1000px;
+    margin: 10px;
+}
+
+.claim {
+    font-size: 45px;
+    width: 400px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    background-color: #29b835e1;
+    border-radius: 20px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.TocenWhatt {
+    font-size: 60px;
+    width: 400px;
+    height: 90px;
+    color: rgb(51, 226, 7);
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Play {
+    border-radius: 40px;
+    margin: 5px;
+    width: 500px;
+    height: 235px;
+    display: flex; /* включаем flexbox */
+    justify-content: center; /* центрируем по горизонтали */
+    align-items: center; /* центрируем по вертикали */
+    background-color: #d2e2e4;
+}
+
+.Play-and-play {
+    border-radius: 40px;
+    margin: 5px; /* добавляем единицы измерения */
+    width: 185px;
+    height: 50px;
+    display: flex; /* включаем flexbox */
+    justify-content: center; /* центрируем текст по горизонтали */
+    align-items: center; /* центрируем текст по вертикали */
+    background-color: #18e211;
+    text-align: center;
+    font-size: 40px;
+
+}
